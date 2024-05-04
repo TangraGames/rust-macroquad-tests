@@ -1,2 +1,2 @@
 # macroquad-tests
-Small tests using Rust and the Macroquad lframework
+Small tests using Rust and the Macroquad framework
