@@ -8,4 +8,4 @@ Video tutorials:
 - [The Coding Train (JavaScript)](https://youtu.be/flQgnCUxHlw?si=8JUJkNaV4143vHWu)
 - [Sebastian League (C#, Unity)](https://youtu.be/7WcmyxyFO7o?si=uQ9DaL6b7VvGILhy)
 
-![Screenshot of Poisson Disk Sampling visualization using Macroquad and Rust] (https://github.com/TangraGames/macroquad-tests/blob/main/poisson-disk-sampling/1-poisson-disk-sampling-macroquad-rust.png)
+![Screenshot of Poisson Disk Sampling visualization using Macroquad and Rust](https://github.com/TangraGames/macroquad-tests/blob/main/poisson-disk-sampling/1-poisson-disk-sampling-macroquad-rust.png)
