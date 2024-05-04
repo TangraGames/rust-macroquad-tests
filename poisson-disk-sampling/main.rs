@@ -46,15 +46,7 @@ fn grid_to_index(row: i32, column:i32, grid_columns:i32) -> i32
 	return column + row * grid_columns;
 }
 
-/* 
-fn index_to_grid(index:i32, columns:i32) -> (i32, i32)
-{
-	let row:i32 = index / columns;
-	let col:i32 = index % columns;
 
-    return (row, col);
-}
-*/
 fn screen_to_index(x:f32, y:f32, cell_size:f32, grid_columns:i32) -> i32 {
     let grid_pos = screen_to_grid(x, y, cell_size);
     return grid_to_index(grid_pos.0, grid_pos.1, grid_columns);
@@ -144,7 +136,7 @@ async fn main() {
 				}
             }
 			
-			if point_valid {
+	    if point_valid {
                 active_list.push(new_point);
                 points.push(new_point);
                 
