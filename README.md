@@ -1,4 +1,4 @@
-# Macroquad-tests
+# Rust Macroquad Tests
 Small tests using Rust and the [Macroquad framework](https://github.com/not-fl3/macroquad)
 
 ## 1. Poisson Disk Sampling
