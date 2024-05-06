@@ -6,7 +6,7 @@
  *************************************************************************/
 
 use macroquad::rand::gen_range;
-// the rand function from the Macroquad library has cross platform
+// the rand function from the Macroquad library has cross platform support
 
 // how many times to try and place a point before rejection
 // this is k in the paper: Fast Poisson Disk Sampling in Arbitrary Dimensions
