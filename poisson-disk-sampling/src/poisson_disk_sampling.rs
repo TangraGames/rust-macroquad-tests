@@ -70,15 +70,11 @@ pub fn generate_points(radius:f32, region:(f32, f32))->Vec<(f32, f32)> {
     let cols:i32 = (region.0 / cell_size).ceil() as i32;
     let grid_size:i32 = rows * cols;
     
-    //println!("Rows: {}, Cols {}, Cell Size {}, Grid Size: {}", rows, cols, cell_size, grid_size);
-    
     let mut grid:Vec<i32> = Vec::new();
     for _i in 0..grid_size {
         grid.push(-1);
     }
-    
-    //println!("{:?}", grid);
-    
+        
     let mut active_list:Vec<(f32, f32)> = Vec::new();
     let mut points:Vec<(f32, f32)> = Vec::new();
     
